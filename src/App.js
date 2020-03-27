@@ -3,6 +3,7 @@ import { ApolloProvider } from '@apollo/client';
 import client from './graphql/client';
 import TodoList from './components/TodoList';
 import Todo from './components/Todo';
+import AddTodo from './components/AddTodo';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <h1>Hello</h1>
       <TodoList />
       <Todo />
+      <AddTodo />
     </ApolloProvider>
   );
 }
