@@ -1,8 +1,4 @@
-import {
-  ApolloClient,
-  HttpLink,
-  InMemoryCache,
-} from '@apollo/client';
+import { ApolloClient, HttpLink, InMemoryCache } from '@apollo/client';
 
 export default new ApolloClient({
   cache: new InMemoryCache(),
